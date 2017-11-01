@@ -18,8 +18,20 @@ Generate GraphQL Schema from JSON source
 	Do not use --file and --url at the same time!
 ```
 
-### Sample source
 
+## Installation
+```sh
+	$ npm install --global json-to-graphql-cli
+```
+
+or via [yarn](https://github.com/yarnpkg/yarn)
+
+```sh
+	$ yarn global add json-to-graphql-cli
+```
+
+
+### Sample source
 Example taken from [json-to-graphql](https://github.com/aweary/json-to-graphql) module.
 
 ```json
@@ -106,11 +118,6 @@ Example taken from [json-to-graphql](https://github.com/aweary/json-to-graphql) 
 ```
 
 For API and more infos check out [json-to-graphql](https://github.com/aweary/json-to-graphql)
-
-## Installation
-```sh
-	$ npm install --global json-to-graphql-cli
-```
 
 ## Related
 - [json-to-graphql](https://github.com/aweary/json-to-graphql)
