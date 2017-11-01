@@ -1,5 +1,5 @@
 {
-  "name": "graphql-schema-generator",
+  "name": "json-to-graphql-cli",
   "description": "Generate GraphQL Schema from JSON source",
   "version": "0.1.1",
   "main": "index.js",
@@ -7,6 +7,9 @@
   "repository": "https://github.com/rawnly/json-to-graphql-cli",
   "author": "Federico Vitale (federicovitale.me) <fedevitale99@gmial.com>",
   "private": false,
+  "bin": {
+	"schema": "./index.js"
+  },
   "dependencies": {
     "chalk": "^2.3.0",
     "conf": "^1.3.1",
