@@ -11,7 +11,7 @@
     "schema": "./index.js"
   },
   "scripts": {
-	"postinstall": "./post-install.js"	  
+	"postinstall": "node post-install.js"	  
   },
   "dependencies": {
     "chalk": "^2.3.0",
