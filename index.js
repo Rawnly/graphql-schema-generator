@@ -1,3 +1,5 @@
+#! usr/bin/env node
+
 const fs = require('fs');
 const generateSchema = require('json-to-graphql');
 const got = require('got');
